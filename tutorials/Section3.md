@@ -1,5 +1,6 @@
 ### Moving the camera
 So far we can move the ball but the camera does not move and cannot see very much. We need to 'attach' the camera to the player object (the ball).
+[Tutorial followed from here](https://www.youtube.com/watch?v=HocIybFeAvI)
 
 1. Lets set the position of the camera.
   1. Click on the `Main Camera` object.
@@ -49,3 +50,8 @@ So far we can move the ball but the camera does not move and cannot see very muc
   4. The name should change from 'None' to 'Player'
 
 4. Enter `Play` mode and check that everything is working fine!
+
+
+You can download the project completed upto this point [here](https://github.com/Mattie432/Roll-a-ball/releases/tag/v0.3)
+
+###[Next Tutorial > 4](Section4.md)
