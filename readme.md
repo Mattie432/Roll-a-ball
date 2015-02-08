@@ -10,3 +10,5 @@ An introduction to the Roll-a-ball assignment, showing the final game and descri
 
 1. [Tutorial 1](tutorials/Section1.md)
 2. [Tutorial 2](tutorials/Section2.md)
+3. [Tutorial 3](tutorials/Section3.md)
+4. [Tutorial 4](tutorials/Section4.md)

@@ -94,3 +94,6 @@ In this tutorial we will first setup our play field. This will be very simple an
   7. Move the duplicate around the board and keep doing this to create a circle shape out of these `PickUp` objects.
       ![Pickup 2](../imgs/pickup2.png)
   8. Okay looking good! Lets press play and test!
+
+
+You can download the project at this stage [here](https://github.com/Mattie432/Roll-a-ball/releases/tag/v0.4)
