@@ -12,29 +12,35 @@ So far we can move the ball but the camera does not move and cannot see very muc
   3. Open the file for editing.
   4. We need to add two variables to the file. One is a reference to the ball (player) and the other is a vector which will determine where the camera is relative to the ball.
     1. Add these two variables below the `public class CameraController : MonoBehaviour` line.
+
         ```
-public GameObject player;
-private Vector3 offset;
-        ```
+        public GameObject player;
+        private Vector3 offset;
+         ```
+
     2. The `Player` variable will be used so that we can access the properties of the ball in the code.
     3. The `offset` variable holds our camera position relative to the ball.
   5. Next we need to set the value of the `offset` variable.
     1. Inside of the `Start()` function add the line.
-        ```
-offset = transform.position;
-        ```
+
+         ```
+         offset = transform.position;
+         ```
+
     2. This is setting the value of offset equal to the camera's current position.
     3. *Remember* code in the `Start()` function is called only when the script is first loaded (so only once).
   6. Now we need to update the camera's position relative to the balls position. We do this every frame so that it moves with the ball.
     1. In the `Update()` function add the line.
-        ```
-transform.position = player.transform.position + offset;
-        ```
+
+         ```
+         transform.position = player.transform.position + offset;
+         ```
+
     2. This will set the camera's position to the balls position + the offset. The offset is saying set the camera 10 units above the ball (like we did in step 1).
   7. One last thing, `Update()` is not the best place for this code as we want to update the camera _after_ all other actions have been performed. We use the [LateUpdate()](http://docs.unity3d.com/ScriptReference/MonoBehaviour.LateUpdate.html) function for this.
     1. Rename `Update()` function to `LateUpdate()`.
     2. `LateUpdate()` is called after all other update functions have been called. If we used the `Update()` function then our camera could move before the ball had moved and cause us problems.
-  8. We are finished with out code. [Here]() is how my code looks at this point. Check yours against mine.
+  8. We are finished with out code. [Here](https://github.com/Mattie432/Roll-a-ball/blob/master/code/Assets/Scripts/CameraController.cs) is how my code looks at this point. Check yours against mine.
 
 3. Now we need to setup the script.
   1. First click on `Main Camera`
