@@ -1,4 +1,4 @@
-## Roll a Ball (Week 1)
+## Roll a Ball
 
 Game to roll a ball around a board and pick up objects until there are no objects left.
 
