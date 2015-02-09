@@ -46,7 +46,7 @@ We want to be able to pickup our collectible game objects when our ball collides
         other.gameObject.SetActive(false);
         ```
 
-  5. Thats it for our script! Check yours against mine [**HERE**]() Save and return to unity.
+  5. Thats it for our script! Check yours against mine [**HERE**](https://github.com/Mattie432/Roll-a-ball/blob/9df5dcdbd0a963c86229c4b469ff08f94fefb20f/code/Assets/Scripts/PlayerMovement.cs) Save and return to unity.
 5. Return to Unity and press play. See what happens.
   1. You can notice that nothing seems to have changed. When we knock into a `PickUp` object it does not dissapear as we want.
   2. This is because our object is a 'collider' object and we are using the `onTriggerEntered()` method. (dont worry too much about this as its quite complicated)
@@ -67,3 +67,6 @@ We want to be able to pickup our collectible game objects when our ball collides
     1. We could just disable gravity. This would stop them being pulled down, but they would still be affected by other forces (like a cube hitting them and knocking them over).
     2. Instead we will toggle `Is Kinematic` which will not react to forces!
   8. Good, lets press play again and see can see that is it all working again! And its performant !
+
+
+  You can download the project at this stage [here](https://github.com/Mattie432/Roll-a-ball/releases/tag/v0.5)
