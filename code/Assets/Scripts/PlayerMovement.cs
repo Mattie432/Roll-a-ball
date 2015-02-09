@@ -22,4 +22,16 @@ public class PlayerMovement : MonoBehaviour {
 
 		rigidbody.AddForce (movement * speed * Time.deltaTime);
 	}
+
+	//This method is used to detect collisions beteen our player and objects.
+	void OnTriggerEnter(Collider other) {
+
+		//Here we check if the object we are coliding with has the "PickUp" tag
+		if (other.gameObject.tag == "PickUp") {
+
+			//If it is a "PickUp" object, disable it.
+			other.gameObject.SetActive(false);
+
+		}
+	}
 }

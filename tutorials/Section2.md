@@ -7,7 +7,7 @@ Lets think about how we want the player to move. We want to be able to roll arou
 2. Now we need to accept input from the player and apply these as forces to move the player object in the scene. We will do this by creating a script we attach to the game object.
   1. Create a folder in the `Assets` directory by looking at the project view, right clicking  the `Assets` folder and Create > Folder. Call this new folder `Scripts`.
   2. Next we need to create a script. Click the `Player` object and under the `Inspector` view click `Add Component`.
-  3. Click `New Script` and Call the script `PlayerControl` and select the language as `C#`.
+  3. Click `New Script` and Call the script `PlayerController` and select the language as `C#`.
   4. This creates the script file in the Assets directory and attaches it to the `Player` object
   5. We need to move the script from the 'Assets' folder to the 'Scripts' folder.
 3. The next step involves programming the script.
