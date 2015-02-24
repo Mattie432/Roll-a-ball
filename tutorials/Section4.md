@@ -72,7 +72,7 @@ In this tutorial we will first setup our play field. This will be very simple an
         transform.Rotate (vector * Time.deltaTime);
         ```
 
-    10. Check your script against mine [**here**](). Save this script and return to unity.
+    10. Check your script against mine [**here**](https://github.com/Mattie432/Roll-a-ball/blob/v0.4/code/Assets/Scripts/Rotator.cs). Save this script and return to unity.
     11. Press play and check that everything is working fine.
 4. The next thing we need to do is set our game board up with multiple of the `PickUp` objects.
   1. Instead of creating lots of cubes in the same way we did step 3 we are going to create a 'Prefab' (imagine this as a template) which we can use to easily create copies of our `PickUp` object.
