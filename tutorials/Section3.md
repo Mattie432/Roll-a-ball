@@ -41,7 +41,7 @@ So far we can move the ball but the camera does not move and cannot see very muc
   7. One last thing, `Update()` is not the best place for this code as we want to update the camera _after_ all other actions have been performed. We use the [LateUpdate()](http://docs.unity3d.com/ScriptReference/MonoBehaviour.LateUpdate.html) function for this.
     1. Rename `Update()` function to `LateUpdate()`.
     2. `LateUpdate()` is called after all other update functions have been called. If we used the `Update()` function then our camera could move before the ball had moved and cause us problems.
-  8. We are finished with out code. [Here](https://github.com/Mattie432/Roll-a-ball/blob/master/code/Assets/Scripts/CameraController.cs) is how my code looks at this point. Check yours against mine.
+  8. We are finished with out code. [Here](https://github.com/Mattie432/Roll-a-ball/blob/v0.3/code/Assets/Scripts/CameraController.cs) is how my code looks at this point. Check yours against mine.
 
 3. Now we need to setup the script.
   1. First click on `Main Camera`
