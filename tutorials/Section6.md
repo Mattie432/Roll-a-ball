@@ -55,7 +55,7 @@ We want to be able to display the number of objects the player has picked up and
   4. We now have two line of code that are exactly the same. This is generally bad, what we can do is create a functin to do this in one place and call it.
 
       Create a function `void SetCountText()` and replace the lines of code with calls to this function.
-  5. Check your code against mine [HERE]() Save and open Unity again.
+  5. Save and open Unity again.
 
 4. We can now see that there is a new field under the `PlayerMovement` script when we click on the `Player` object. We need to ascociate this with the text object. Drag `CountText` onto this field & press play.
 
@@ -63,5 +63,5 @@ We want to be able to display the number of objects the player has picked up and
 
   ![EndGame](../imgs/EndGame.png "Logo Title Text 1")
 
-
+Check your code against mine [**HERE**](https://github.com/Mattie432/Roll-a-ball/blob/v0.6/code/Assets/Scripts/PlayerMovement.cs)
 You can download the project at this stage [here](https://github.com/Mattie432/Roll-a-ball/releases/tag/v0.6)
