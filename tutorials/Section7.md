@@ -16,6 +16,10 @@ We want to be able to distribute the game and send it to people to play.
 9. Open the html file and test the game.
 10. We could now upload these files (both of them) to a website so that anyone could play our game in their browser.
 
+A playable demo of my final project is available at: 
+[http://mattie432.github.io/Roll-a-ball/](http://mattie432.github.io/Roll-a-ball/)
+
+
 Though these assignments have been a very simple example, they cover a _lot_ of the basics that you will need to create your own games. And will give you a basic understanding of the concepts & features of Unity.
 
 Have fun creating your own games!

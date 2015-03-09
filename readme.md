@@ -14,3 +14,8 @@ An introduction to the Roll-a-ball assignment, showing the final game and descri
 4. [Tutorial 4](tutorials/Section4.md)
 4. [Tutorial 5](tutorials/Section5.md)
 4. [Tutorial 6](tutorials/Section6.md)
+4. [Tutorial 7](tutorials/Section7.md)
+
+
+A playable demo of the final project is available at: 
+[http://mattie432.github.io/Roll-a-ball/](http://mattie432.github.io/Roll-a-ball/)
