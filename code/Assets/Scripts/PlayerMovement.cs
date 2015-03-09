@@ -3,10 +3,15 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
 	public float speed;
+	public GUIText countText;
+	public GUIText winText;
+	private int count;
 
 	// Use this for initialization, this runs when the script is loaded
 	void Start () {
-	
+		count = 0;
+		winText.text = "";
+		SetCountText();
 	}
 	
 	// Update is called once per frame
@@ -32,6 +37,20 @@ public class PlayerMovement : MonoBehaviour {
 			//If it is a "PickUp" object, disable it.
 			other.gameObject.SetActive(false);
 
+			//Increment the count value for pickup objects collected.
+			count = count + 1;
+
+			//update the count text
+			SetCountText();
+
+			if(count >= 12){
+				winText.text = "You Win!!";
+			}
 		}
+	}
+
+	void SetCountText(){
+		//Update the value of the count text
+		countText.text = "Count: " + count.ToString();
 	}
 }
