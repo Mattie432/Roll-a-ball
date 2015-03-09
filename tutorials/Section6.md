@@ -65,3 +65,6 @@ We want to be able to display the number of objects the player has picked up and
 
 Check your code against mine [**HERE**](https://github.com/Mattie432/Roll-a-ball/blob/v0.6/code/Assets/Scripts/PlayerMovement.cs)
 You can download the project at this stage [here](https://github.com/Mattie432/Roll-a-ball/releases/tag/v0.6)
+
+
+  ###[Next Tutorial > 7](Section7.md)
